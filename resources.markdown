@@ -4,7 +4,9 @@ title: Resources + Teaching Materials
 permalink: /resources
 ---
 
-Tutorials, Slide decks, and other materials that might be useful to people getting into computational linguistics, psycholinguistics, or something similar. As a warning, slide decks were designed to be used as a visual aid in a presentation, so not all of the necessary detail is preserved in the slides alone. 
+Tutorials, slide decks, and other materials that might be useful to people getting into computational linguistics, psycholinguistics, or something similar. 
+
+Note that slide decks were designed to be used as a visual aid within a presentation and have (mostly) not been modified, so they are not entirely self contained. They are probably best used as a companion to another more comprehensive, bit perhaps more dense, resource. In that case, reconstructing the presentation of each slide is left as an exercise to the reader :)
 
 ## Tutorials
 [Training LSTM Language Models for Psycholinguistics (WIP)](https://colab.research.google.com/drive/1EYQQ5Zjt7TNuRIjg_y-L-8m2_T5JRIig?usp=sharing). A walkthrough (with commentary) of the code used by [Gulordava et al. (2018)](https://www.aclweb.org/anthology/N18-1108.pdf) to train LSTM language models with a focus on psycholinguistic evaluation.

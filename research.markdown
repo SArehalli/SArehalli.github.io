@@ -5,7 +5,7 @@ permalink: /research
 ---
 
 ## In Press
-**Arehalli, Suhas** and Wittenberg, Eva. *Experimental Filler Design Influences Error Correction Rates in a Word Restoration Paradigm* 
+**Arehalli, Suhas** and Wittenberg, Eva. *Experimental Filler Design Influences Error Correction Rates in a Word Restoration Paradigm*. Linguistics Vanguard.
 
 ## 2020
 **Arehalli, Suhas** and Linzen, Tal. *Neural language models capture some, but not all, agreement attraction phenomena*. Annual Meeting of the Cognitive Science Society, 2020. [paper](psyarxiv.com/97qcg)
@@ -14,7 +14,7 @@ permalink: /research
 
 ## 2018
 
-**Arehalli, Suhas** and Wittenberg, Eva. *Your Ears or Your Brain: Noise structure can hide grammatical preferences*. AMLaP 2018.talk
+**Arehalli, Suhas** and Wittenberg, Eva. *Your Ears or Your Brain: Noise structure can hide grammatical preferences*. AMLaP 2018. talk
 
 **Arehalli, Suhas** and Wittenberg, Eva. *The Mess Reveals the System: People use top down cues to resolve errors in contexts with highly random noise, but not with highly structured noise*. CUNY 2018. [poster](osf.io/6kqay)
 
