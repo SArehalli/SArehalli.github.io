@@ -4,7 +4,7 @@ title: About Me
 permalink: /
 ---
 
-Hello! I'm Suhas Arehalli, a 3rd year PhD Student at the [Cognitive Science Department at Johns Hopkins University](cogsci.jhu.edu) working with [Tal Linzen](https://tallinzen.net/). 
+Hello! I'm Suhas Arehalli, a 3rd year PhD Student at the [Cognitive Science Department at Johns Hopkins University](https://cogsci.jhu.edu) working with [Tal Linzen](https://tallinzen.net/). 
 
 My interests are at the intersection of Sentence Processing, Computational Linguistics, and Theoretical Syntax: **How are syntactic constraints enforced during real-time sentence processing, and how can modern computational modeling techniques help us generate and evaluate potential answers to that question?** As a result, my work involves human subjects research that characterizes how humans process (or fail to process) language and computational modeling work that investigates what training and architectural choices lead to neural language models that approximate those human characteristics.
 
