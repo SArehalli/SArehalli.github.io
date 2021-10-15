@@ -5,7 +5,10 @@ permalink: /research
 ---
 
 ## In Press
-**Arehalli, Suhas** and Wittenberg, Eva. *Experimental Filler Design Influences Error Correction Rates in a Word Restoration Paradigm*. Linguistics Vanguard.
+**Arehalli, Suhas** and Linzen, Tal. *Neural networks as cognitive models of the processing of syntactic constraints*. Under Review.
+
+## 2021
+**Arehalli, Suhas** and Wittenberg, Eva. *Experimental Filler Design Influences Error Correction Rates in a Word Restoration Paradigm*. Linguistics Vanguard. [paper] (https://www.degruyter.com/document/doi/10.1515/lingvan-2020-0052/html)
 
 ## 2020
 **Arehalli, Suhas** and Linzen, Tal. *Neural language models capture some, but not all, agreement attraction phenomena*. Annual Meeting of the Cognitive Science Society, 2020. [paper](https://psyarxiv.com/97qcg)
