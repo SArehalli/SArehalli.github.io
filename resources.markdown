@@ -9,7 +9,7 @@ Tutorials, slide decks, and other materials that might be useful to people getti
 Note that slide decks were designed to be used as a visual aid within a presentation and have (mostly) not been modified, so they are not entirely self contained. They are probably best used as a companion to another more comprehensive, bit perhaps more dense, resource. In that case, reconstructing the presentation of each slide is left as an exercise to the reader :)
 
 ## Tutorials
-[Slides] (https://docs.google.com/presentation/d/1zZHHkS57mpIBfMGBsVKHaWX4i2mE2SX8CJCjCCzDhNQ/edit?usp=sharing) and [Two] (https://colab.research.google.com/drive/1EQPIWJSaRDH-EhDVz9zaXW2PhC92OB_M?usp=sharing) [notebook] (https://colab.research.google.com/drive/1Lu3mtJL49U0Tl65qzj0M0LBZkqscjVer?usp=sharing) tutorials on Google CoLab. From a 2022 LSA minicourse titled "Neural Networks & Language Processing" co-taught by me and Brian Dillon. 
+[Slides](https://docs.google.com/presentation/d/1zZHHkS57mpIBfMGBsVKHaWX4i2mE2SX8CJCjCCzDhNQ/edit?usp=sharing) and [Two](https://colab.research.google.com/drive/1EQPIWJSaRDH-EhDVz9zaXW2PhC92OB_M?usp=sharing) [notebook](https://colab.research.google.com/drive/1Lu3mtJL49U0Tl65qzj0M0LBZkqscjVer?usp=sharing) tutorials on Google CoLab. From a 2022 LSA minicourse titled "Neural Networks & Language Processing" co-taught by me and Brian Dillon. 
 
 [Training LSTM Language Models for Psycholinguistics (WIP)](https://colab.research.google.com/drive/1EYQQ5Zjt7TNuRIjg_y-L-8m2_T5JRIig?usp=sharing). A walkthrough (with commentary) of the code used by [Gulordava et al. (2018)](https://www.aclweb.org/anthology/N18-1108.pdf) to train LSTM language models with a focus on psycholinguistic evaluation.
 
