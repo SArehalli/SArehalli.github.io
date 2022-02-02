@@ -5,12 +5,12 @@ permalink: /research
 ---
 
 ## In Press
-**Arehalli, Suhas** and Linzen, Tal. *Neural networks as cognitive models of the processing of syntactic constraints*. In Revisions.
+**Arehalli, Suhas** and Linzen, Tal. *Neural networks as cognitive models of the processing of syntactic constraints*. in revisions.
 ## 2022
 **Arehalli, Suhas**, Dillon, Brian, and Linzen, Tal. *Syntactic Surprisal from Neural Language Models tracks Garden Path Effects*. HSP 2022. poster
 
 ## 2021
-**Arehalli, Suhas**, Linzen, Tal, and Legendre, Geraldine. *Syntactic intervention cannot explain agreement attraction in English wh-questions*. AMLaP 2021. [Short Talk](https://amlap2021.github.io/program/204.pdf)
+**Arehalli, Suhas**, Linzen, Tal, and Legendre, Geraldine. *Syntactic intervention cannot explain agreement attraction in English wh-questions*. AMLaP 2021. [short talk](https://amlap2021.github.io/program/204.pdf)
 
 **Arehalli, Suhas** and Wittenberg, Eva. *Experimental Filler Design Influences Error Correction Rates in a Word Restoration Paradigm*. Linguistics Vanguard. [paper](https://www.degruyter.com/document/doi/10.1515/lingvan-2020-0052/html)
 
