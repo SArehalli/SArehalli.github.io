@@ -7,7 +7,7 @@ permalink: /research
 ## In Press
 **Arehalli, Suhas** and Linzen, Tal. *Neural networks as cognitive models of the processing of syntactic constraints*. in revisions.
 ## 2022
-**Arehalli, Suhas**, Dillon, Brian, and Linzen, Tal. *Syntactic Surprisal from Neural Language Models tracks Garden Path Effects*. HSP 2022. poster
+**Arehalli, Suhas**, Dillon, Brian, and Linzen, Tal. *Syntactic Surprisal from Neural Language Models tracks Garden Path Effects*. HSP 2022. [poster](https://oxford-abstracts.s3.amazonaws.com/e4a2e0bf-f58c-4c0e-ba7b-a91ffc7aa9e8.pdf)
 
 ## 2021
 **Arehalli, Suhas**, Linzen, Tal, and Legendre, Geraldine. *Syntactic intervention cannot explain agreement attraction in English wh-questions*. AMLaP 2021. [short talk](https://amlap2021.github.io/program/204.pdf)
