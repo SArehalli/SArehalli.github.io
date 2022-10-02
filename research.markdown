@@ -10,7 +10,7 @@ permalink: /research
 ## 2022
 **Arehalli, Suhas**, Dillon, Brian and Linzen, Tal. *Syntactic Surprisal from Neural Models Predicts, but Underestimates, Human Processing Difficulty From Syntactic Ambiguities*. CoNLL 2022. [preprint](Arehalli_SynSurp.pdf)
 
-Kobzeva, Anastasia, **Arehalli, Suhas**, Linzen, Tal, and Kush, Dave. *LSTMs can learn basic wh- and relative clause dependencies in Norweigan*. CogSci 2022. [paper]  (psyarxiv.com/wjavp/)
+Kobzeva, Anastasia, **Arehalli, Suhas**, Linzen, Tal, and Kush, Dave. *LSTMs can learn basic wh- and relative clause dependencies in Norweigan*. CogSci 2022. [paper](psyarxiv.com/wjavp/)
 
 **Arehalli, Suhas**, Dillon, Brian, and Linzen, Tal. *Syntactic Surprisal from Neural Language Models tracks Garden Path Effects*. HSP 2022. [poster](https://oxford-abstracts.s3.amazonaws.com/e4a2e0bf-f58c-4c0e-ba7b-a91ffc7aa9e8.pdf)
 
