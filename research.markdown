@@ -4,10 +4,19 @@ title: Research
 permalink: /research
 ---
 
-## In Press
-**Arehalli, Suhas** and Linzen, Tal. *Neural networks as cognitive models of the processing of syntactic constraints*. in revisions.
+## Under Review
+**Arehalli, Suhas** and Linzen, Tal. *Neural networks as cognitive models of the processing of syntactic constraints*. Under Review. [preprint](Arehalli_AgrAttr.pdf)
+
 ## 2022
+**Arehalli, Suhas**, Dillon, Brian and Linzen, Tal. *Syntactic Surprisal from Neural Models Predicts, but Underestimates, Human Processing Difficulty From Syntactic Ambiguities*. CoNLL 2022. [preprint](Arehalli_SynSurp.pdf)
+
+Kobzeva, Anastasia, **Arehalli, Suhas**, Linzen, Tal, and Kush, Dave. *LSTMs can learn basic wh- and relative clause dependencies in Norweigan*. CogSci 2022. [paper]  (psyarxiv.com/wjavp/)
+
 **Arehalli, Suhas**, Dillon, Brian, and Linzen, Tal. *Syntactic Surprisal from Neural Language Models tracks Garden Path Effects*. HSP 2022. [poster](https://oxford-abstracts.s3.amazonaws.com/e4a2e0bf-f58c-4c0e-ba7b-a91ffc7aa9e8.pdf)
+
+Huang, Kuan-Jung, **Arehalli, Suhas**, Kugemoto, Mari, Muxica, Christian, Prasad, Grusha, Dillon, Brian, and Linzen, Tal. *SPR mega-benchmark shows surprisal tracks construction- but not item- level difficulty*. HSP 2022. [talk](https://d3ijlhudpq9yjw.cloudfront.net/73865ff2-7298-4a7a-b2db-a560917a7d6a.pdf)
+
+Kobzeva, Anastasia, **Arehalli, Suhas**, Linzen, Tal, Kush, Dave. *What can an LSTM language model learn about filler-gap dependencies in Norwegian?*. HSP 2022. [poster](https://d3ijlhudpq9yjw.cloudfront.net/3a32bae8-631c-4f43-b018-576232f98465.pdf)
 
 ## 2021
 **Arehalli, Suhas**, Linzen, Tal, and Legendre, Geraldine. *Syntactic intervention cannot explain agreement attraction in English wh-questions*. AMLaP 2021. [short talk](https://amlap2021.github.io/program/204.pdf)
