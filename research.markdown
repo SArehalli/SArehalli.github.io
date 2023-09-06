@@ -5,10 +5,10 @@ permalink: /research
 ---
 
 ## Under Review
-**Arehalli, Suhas** and Linzen, Tal. *Neural networks as cognitive models of the processing of syntactic constraints*. Under Review. [preprint](Arehalli_AgrAttr.pdf)
+**Arehalli, Suhas** and Linzen, Tal. *Neural networks as cognitive models of the processing of syntactic constraints*. Under Review.
 
 ## 2022
-**Arehalli, Suhas**, Dillon, Brian and Linzen, Tal. *Syntactic Surprisal from Neural Models Predicts, but Underestimates, Human Processing Difficulty From Syntactic Ambiguities*. CoNLL 2022. [preprint](Arehalli_SynSurp.pdf)
+**Arehalli, Suhas**, Dillon, Brian and Linzen, Tal. *Syntactic Surprisal from Neural Models Predicts, but Underestimates, Human Processing Difficulty From Syntactic Ambiguities*. CoNLL 2022. [arXiv](https://arxiv.org/abs/2210.12187), [ACL Anthology](https://aclanthology.org/2022.conll-1.20/). **Distinguished Paper**. 
 
 Kobzeva, Anastasia, **Arehalli, Suhas**, Linzen, Tal, and Kush, Dave. *LSTMs can learn basic wh- and relative clause dependencies in Norweigan*. CogSci 2022. [paper](psyarxiv.com/wjavp/)
 

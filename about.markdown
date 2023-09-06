@@ -4,7 +4,7 @@ title: About Me
 permalink: /
 ---
 
-Hello! I'm Suhas Arehalli, a 5th year PhD Candidate at the [Cognitive Science Department at Johns Hopkins University](https://cogsci.jhu.edu) working with [Tal Linzen](https://tallinzen.net/). 
+Hello! I'm Suhas Arehalli, an Assistant Professor of Computer Science at [Macalester College](https://www.macalester.edu/mscs/). Previously, I completed my PhD at the [Cognitive Science Department at Johns Hopkins University](https://cogsci.jhu.edu) working with [Tal Linzen](https://tallinzen.net/). 
 
 My interests are at the intersection of Sentence Processing, Computational Linguistics, and Theoretical Syntax: **How are syntactic constraints enforced during real-time sentence processing, and how can modern computational modeling techniques help us generate and evaluate potential answers to that question?** As a result, my research involves human subjects experiments that characterizes how humans process (or fail to process) language and computational modeling work that investigates what training and architectural choices lead to neural language models that approximate those human characteristics.
 
