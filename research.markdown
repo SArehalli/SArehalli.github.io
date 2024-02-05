@@ -4,8 +4,8 @@ title: Research
 permalink: /research
 ---
 
-## Under Review
-**Arehalli, Suhas** and Linzen, Tal. *Neural networks as cognitive models of the processing of syntactic constraints*. Under Review.
+## In Press
+**Arehalli, Suhas** and Linzen, Tal. *Neural networks as cognitive models of the processing of syntactic constraints*. In Press. [Draft](Arehalli_AgrAttr.pdf)
 
 ## 2023
 Kobzeva, Anastasia, **Arehalli, Suhas**, Linzen, Tal, and Kush, Dave (2023) "Neural Networks Can Learn Patterns of Island-insensitivity in Norwegian," SCiL 2023. [paper](https://scholarworks.umass.edu/scil/vol6/iss1/17/).
