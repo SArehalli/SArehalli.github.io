@@ -4,8 +4,14 @@ title: Research
 permalink: /research
 ---
 
-## In Press
-**Arehalli, Suhas** and Linzen, Tal. *Neural networks as cognitive models of the processing of syntactic constraints*. In Press. [Draft](Arehalli_AgrAttr.pdf)
+## 2024
+**Arehalli, Suhas** and Linzen, Tal. *Neural networks as cognitive models of the processing of syntactic constraints*. Open Mind. [paper](https://direct.mit.edu/opmi/article/doi/10.1162/opmi_a_00137/120937/Neural-Networks-as-Cognitive-Models-of-the)
+
+Huang, Kuan-Jung, **Arehalli, Suhas**, Kugemoto, Mari, Muxica, Christian, Prasad, Grusha, Dillon, Brian, and Linzen, Tal. *Large-scale benchmark yields no evidence that langauge model surprisal explains syntactic disambiguation difficulty.*. JML. [paper](https://doi.org/10.1016/j.jml.2024.104510)
+
+**Arehalli, Suhas** and Linzen, Tal. *Syntactic Effects on Agreement Attraction in Vocab-Limited Reading Experiments*. HSP 2024. [abstract](osf.io/ckvzr)
+
+Timkey, Will, **Arehalli, Suhas**, Huang, Kuan-Jung, Prasad, Grusha, Dillon, Brian, and Linzen, Tal. *Large-scale eye-tracking when reading benchmark shows suprisal captures early fixations, not regressions*.  HSP 2024. 
 
 ## 2023
 Kobzeva, Anastasia, **Arehalli, Suhas**, Linzen, Tal, and Kush, Dave (2023) "Neural Networks Can Learn Patterns of Island-insensitivity in Norwegian," SCiL 2023. [paper](https://scholarworks.umass.edu/scil/vol6/iss1/17/).

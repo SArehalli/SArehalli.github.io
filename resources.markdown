@@ -4,9 +4,15 @@ title: Resources + Teaching Materials
 permalink: /resources
 ---
 
-Tutorials, slide decks, and other materials that might be useful to people getting into computational linguistics, psycholinguistics, or something similar. 
+Course Webpages, tutorials, slide decks, and other materials that might be useful to people getting into computational linguistics, psycholinguistics, or something similar. 
 
-Note that slide decks were designed to be used as a visual aid within a presentation and have (mostly) not been modified, so they are not entirely self contained. They are probably best used as a companion to another more comprehensive, bit perhaps more dense, resource. In that case, reconstructing the presentation of each slide is left as an exercise to the reader :)
+## Courses
+Below are links to the most recent websites for courses that I've taught at Macalester, with the majority of resources available to the public!
+
+**Algorithmic Design & Analysis** --- [SP25](https://mac-comp221-sp25.github.io/)
+**Theory of Computation** --- [SP25](https://mac-comp361-sp25.github.io/)
+**Natural Language Processing** -- [FA24](https://mac-nlp-fa24.github.io/)
+
 
 ## Tutorials
 Neural Networks & Language Processing ([Slides](https://docs.google.com/presentation/d/1zZHHkS57mpIBfMGBsVKHaWX4i2mE2SX8CJCjCCzDhNQ/edit?usp=sharing), [Notebook 1](https://colab.research.google.com/drive/1EQPIWJSaRDH-EhDVz9zaXW2PhC92OB_M?usp=sharing),  and [Notebook 2](https://colab.research.google.com/drive/1Lu3mtJL49U0Tl65qzj0M0LBZkqscjVer?usp=sharing)). Materials from an LSA 2022 minicourse co-taught by me and Brian Dillon. 
@@ -16,6 +22,7 @@ Neural Networks & Language Processing ([Slides](https://docs.google.com/presenta
 [Psycholinguistic Evaluation of Language Models](https://colab.research.google.com/drive/1yzO4isSfBKq6YBLHzZSZmllDQB_yOWiM?usp=sharing). A tutorial designed for a Computational Psycholinguistics class at JHU CogSci (2018) to introduce the techniques necessary for psycholinguistic evaluation of neural language models.
 
 ## Slide Decks
+Note that slide decks were designed to be used as a visual aid within a presentation and have (mostly) not been modified, so they are not entirely self contained. They are probably best used as a companion to another more comprehensive, bit perhaps more dense, resource. In that case, reconstructing the presentation of each slide is left as an exercise to the reader :)
 
 [Memory and Language Processing](https://docs.google.com/presentation/d/188Ddj3fjiUpSsjUQMU8ewnM98Ec_pc4fGNYlYkwbhk0/edit?usp=sharing). Slide deck from a guest lecture in JHU CogSci's Computational Psycholinguistics class (2019) on the relationship between models of memory and language processing (ACT-R, Interference Effects, etc.).
 
