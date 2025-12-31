@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Generalized Minesweeper</title>
+    <link rel="stylesheet" href="./css/JSAV.css" type="text/css" media="screen" title="no title" charset="utf-8" />
+    <style>
+    #av {
+      width: 98%;
+      position: relative;
+    }
+    .unchecked {
+      background-color: #EEEEEE;
+    }
+    .marked {
+      background-color: #DDDDDD;
+      border-color: #DA0030;
+    }
+    .highlighted {
+      background-color: #EEFFFF;
+    }
+    .locked-valid {
+      color: #111111;
+      background-color: #EEEEEE;
+    }
+    .locked-invalid {
+      color: #111111;
+      background-color: #FF9999;
+    }
+    .hidden {
+    }
+    .jsavcounter {
+      position: absolute;
+      top: 15px;
+    }
+    .jsavtree {
+      position: relative;
+      width: 500px;
+      height: 300px;
+    }
+    svg {
+      height: 600px;
+    }
+    path {
+      pointer-events: visible;
+    }
+    </style>
+  </head>
+  <body>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+    <script src="./lib/jquery.transit.js"></script>
+    <script src="./lib/raphael.js"></script>
+    <script src="./lib/dagre.min.js"></script>
+    <script src="./lib/JSAV.js"></script>
+    <h1>Generalized Minesweeper</h1>
+    <p> In Chapter 7, Problem 30 in *Siper's* Introduction to the Theory of Computation, Sipser instroduces a version of Minesweeper generalized to arbitrary graphs. The core of the game remains the same: The board consists of tiles which are either safe, or mines, with their nature initially hidden. The player then repeatedly selects tiles, revealing their true nature. If the tile is a mine, the player loses. If the tile is safe, the tile is labeled with the number of adjacent tiles that contain a mine.<sup><a href="#floodfill">[1]</a></sup>  The game is normally played on a grid, but Sipser's version is played on an arbitrary undirected graph with each tile being represented by a node. A playable version of this minesweeper variant is reproduced below! </p>
+    <p> 
+        <label for="vertices">Vertices:</label>
+        <input type="number" id="vertices" name="vertices" min=4 max=20 value=7 />
+        <label for="mines">Mines:</label>
+        <input type="number" id="mines" name="mines" min=1 max=20 value=1 />
+        <button type="button" id="genGraph">Start</button>
+    </p>
+    <div id="av" oncontextmenu="return false">
+         <p class="jsavoutput jsavline"></p>
+    </div>
+    <script src="minesweep.js"></script>
+    <p> Of course, Sipser doesn't mention this game for the gameplay. He uses generalized minesweeper to pose a different kind of game --- a decision problem! In any real game of generalized minesweeper, we start by placing the mines and then reveal numbers of each vertex that are <i>consistent</i> with the underlying mine-to-vertex assignment. However, as a player, you could be suspicious that the numbers being shown to you are not consistent with the true mine-to-vertex assignment. This is, however, impossible to know as stated since you don't know the mine assignment. However, you <i>can</i> know if the board is inconsistent with <i>any possible</i> mine-to-vertex assignment. </p>
+    <p> This is exactly Sipser's <i>Mine Consistency Problem</i>: Given a partially solved board of generalized minesweeper, you must determine whether there is mine-to-vertex assignment that is consistent with the revealed numbers. Put another way, given a partially solved board, you have to determine whether the numbers revealed reflect a valid minesweeper board. Sipser asks you to show that this problem is NP-Complete --- both in class NP and an NP-Complete problem polynomial-time reduces to it. Showing it's in class NP is not-so tricky (consider what a good certificate should be for a polynomial-time verifier), but showing a reduction from 3-SAT is quite interesting!</p>
+    <p> Our high-level strategy here is to build <i>gadgets</i>, small pieces of our graph that correspond to units in a 3-SAT formula: variables/literals, clauses, and formulas. First, variables/literals!</p>
+
+    <p> We will have each variable and it's corresponding literals represented by a subgraph of the following form: </p>
+    <button type="button" id="revealLiteral">Reveal Solution</button>
+    <div id="literal" oncontextmenu="return false">
+         <p class="jsavoutput jsavline"></p>
+    </div>
+    <script src="literals.js"></script>
+    <p> The idea here is to simply represent each literal as an unrevealed vertex in our minesweeper graph, with their relationship represented by the fact that they are both connected to a revealed vertex with value 1. We say that a literal is true if its corresponding vertex contains a mine, and the edges to a revealed on enforce that for every literal pair V and ~V, <i>exactly one is true</i>. Play around with the figure above to confirm your intuition: Selecting an unrevealed vertex toggles whether it contains a mine (indicated by the highlight), and the revealed vertex with be colored red when the mine assignment you've selected is inconsistent. You should see that the vertex with a 1 is only consistent when the assignment corresponds to a valid boolean assignment to the variable V! We have established that we have a valid assignment of mines to the minesweeper graph iff we have a valid assignment of boolean values to variables!</p>
+
+    <p> Now we have to handle clauses. Since we're using 3-SAT, we need a way to represent a 3-clause, or an OR of 3 literals. That is, we need there to be a valid mine-to-vertex assignment iff there is a valid assignment to our boolean variables that has our particular 3-clause evaluate to TRUE. Of course, this will require building a new gadget that utilizes out literal gadgets from before and has some revealed vertices to constrain our mine-consistency. Take a moment to think this through before proceeding! </p>
+
+    <p> My proposed solution is sketched out below for the clause (V OR ~W OR ~X): </p>
+    <button type="button" id="revealClauses">Reveal Solution</button>
+    <div id="clause" oncontextmenu="return false">
+         <p class="jsavoutput jsavline"></p>
+    </div>
+    <script src="clauses.js"></script>
+
+    <p> Play around with the figure to test what assignments to the variables V, W, and X can result in a consistent minesweeper board! Note that for any assignment to V, W, and X (i.e., satisfying the row of 1s up top), you have additional degrees of freedom afforded to you by A and B --- this is what lets us allow for the 3 to require <i>at least</i> 1 literal in the clause is true (a logical OR). <b>Make sure you can find a satisfying mine assignment for any assignment of variables that makes the clause TRUE!</b></p>
+
+    <p> Now, the fun part is how to turn this into a full representation of 3-SAT, which talks about the satsifiability of formulas that consist of a conjunction (i.e., an AND) of clauses. How do we do this? Simpler than you think! </p>
+
+    <p> Here's an example for the formula (V OR ~W OR ~X) AND (~V OR W or ~X): </p>
+    <button type="button" id="revealFormula">Reveal Solution</button>
+    <div id="formula" oncontextmenu="return false">
+         <p class="jsavoutput jsavline"></p>
+    </div>
+    <script src="formulas.js"></script>
+    
+    <p> The key here is realizing that if we reuse the same set of literal vertices, we end up needing to find a single assignment to those variables that satisfies every clause sub-graph! Thus, with this construction, we can show that if we can solve the minesweeper consistency problem, we can use that solution to solve 3-SAT: Simply take a 3-SAT formula (in CNF, as we assume), and use the construction above to generate a partially revealed board of generalized minesweeper. Then, we simply run our minesweeper consistency problem solution and it'll give us the correct answer to our original 3-SAT problem. To spell it out fully, there is a satisfying assignment to a 3-SAT formula F iff there is a satisfying mine-to-vertex assignment in the corresponding partial minesweeper board we construct! This tells us that 3-SAT <i>reduces to</i> the minesweeper consistency problem, but we must show that it <i>polynomial-time</i> reduces to the minesweeper consistency problem, so we have to demonstrate that this reduction happens in polynomial time. This last detail is boring though (constant work per variable, then constant work per clause to convert the formula to the graph, etc.). </p>
+    
+    <p> Of course, I've stopped short of providing a full formal proof, which would have to show that the construction is correct for arbitrary 3-SAT formulae (If I were given a satisfiable formula, there exists a consistent mine-to-vertex assignment in the corresponding graph, and if I had a consistent mine-to-vertex assignment in the corresponding graph, I can construct a satisfying variable assignment for the original formula). That should certainly be doable (if a bit tedious) with a good intuition for the construction! </p>
+
+   <hr>
+    <p id="floodfill">[1] Note that in standard minesweeper, if you click a tile with no adjacent mines, the game automatically flood-fills until all non-zero safe tiles are revealed. This is largely a convenience feature, as no new information is revealed through this process, so I don't replicate it here (also, Sipser doesn't mention it!).</p> 
+
+  </body>
+
+</html>
