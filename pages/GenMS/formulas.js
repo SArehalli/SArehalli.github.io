@@ -82,7 +82,7 @@ g4.addEdge(extraH3, clause2);
 g4.addEdge(extraH4, clause2);
 
 
-function validate-form() {
+function validate_form() {
     for (var node of g4.nodes()) {
         if (node.hasClass("locked-valid") || node.hasClass("locked-invalid")) {
             var count = 0;
@@ -103,7 +103,7 @@ function validate-form() {
 g4.on("click", function() {
     if (this.hasClass("locked")) return; 
     this.toggleClass("highlighted");
-    validate-form();
+    validate_form();
 });
 
 g4.on("mouseenter", function() {
