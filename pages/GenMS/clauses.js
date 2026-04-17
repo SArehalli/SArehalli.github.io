@@ -71,7 +71,7 @@ g3.addEdge(notX, clause);
 g3.addEdge(extraH1, clause);
 g3.addEdge(extraH2, clause);
 
-function validate() {
+function validate-clause() {
     for (var node of g3.nodes()) {
         if (node.hasClass("locked-valid") || node.hasClass("locked-invalid")) {
             var count = 0;
@@ -92,7 +92,7 @@ function validate() {
 g3.on("click", function() {
     if (this.hasClass("locked")) return; 
     this.toggleClass("highlighted");
-    validate();
+    validate-clause();
 });
 
 validate();
